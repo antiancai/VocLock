@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A117E6CD751B8F1B701026 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915584756E7A59A574F9E5DC /* AppConfig.swift */; };
+		57997DF069F41C9B661CAA87 /* LockSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D391715E76B77A7FA4D57B /* LockSession.swift */; };
+		6D0C4E8AFCFDA2845419E661 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE4CD825632E1E7E128EDAC /* KeychainStore.swift */; };
+		7D67FD7C73A6A1CF3DD76405 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89960E311FB275B04F98BC8 /* ContentView.swift */; };
+		8515F78A0ACADD9FF1F860B0 /* VocLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0F8C97E335FEDA2F121E27 /* VocLockApp.swift */; };
+		8697D04A121D73024E951D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5019D05D392F43638CA352F9 /* Assets.xcassets */; };
+		E0FC96D6F2BF1E5F829EE2C7 /* VocProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8FF17E52EA67EDD6DAEAC8 /* VocProtocolTests.swift */; };
+		E8FF4CB7941793D1FF723E68 /* VocProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2187F4E24841C54680D0C2A0 /* VocProtocol.swift */; };
+		FE471CE5E958C0AE954A0B0A /* OpenDoorIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F252D2AE2786D824471EDD /* OpenDoorIntent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDEAD5AA1FB9AD74062D353C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30440748376A416C34CA170A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC558EDC520DDB6C642DE3F0;
+			remoteInfo = VocLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2187F4E24841C54680D0C2A0 /* VocProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocProtocol.swift; sourceTree = "<group>"; };
+		2CE4CD825632E1E7E128EDAC /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		4AF3FA935DFCD368DDB67BA7 /* VocLockTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VocLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5019D05D392F43638CA352F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8FF17E52EA67EDD6DAEAC8 /* VocProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocProtocolTests.swift; sourceTree = "<group>"; };
+		81B9F3C1578BD76EC4F529C6 /* VocLock.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = VocLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		915584756E7A59A574F9E5DC /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		A2F252D2AE2786D824471EDD /* OpenDoorIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenDoorIntent.swift; sourceTree = "<group>"; };
+		A89960E311FB275B04F98BC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC0F8C97E335FEDA2F121E27 /* VocLockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocLockApp.swift; sourceTree = "<group>"; };
+		E6D391715E76B77A7FA4D57B /* LockSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockSession.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		07FDB65E1E272E8A6E8EAF73 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				915584756E7A59A574F9E5DC /* AppConfig.swift */,
+				2CE4CD825632E1E7E128EDAC /* KeychainStore.swift */,
+				E6D391715E76B77A7FA4D57B /* LockSession.swift */,
+				2187F4E24841C54680D0C2A0 /* VocProtocol.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4253290B5D0D985BF3957D28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B9F3C1578BD76EC4F529C6 /* VocLock.app */,
+				4AF3FA935DFCD368DDB67BA7 /* VocLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426902544F2F29F891D1C432 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5019D05D392F43638CA352F9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D93B15F3A54992F9764CF5B7 /* VocLock */ = {
+			isa = PBXGroup;
+			children = (
+				A89960E311FB275B04F98BC8 /* ContentView.swift */,
+				A2F252D2AE2786D824471EDD /* OpenDoorIntent.swift */,
+				AC0F8C97E335FEDA2F121E27 /* VocLockApp.swift */,
+				07FDB65E1E272E8A6E8EAF73 /* Core */,
+				426902544F2F29F891D1C432 /* Resources */,
+			);
+			path = VocLock;
+			sourceTree = "<group>";
+		};
+		DAC91212A702EE3707B01A24 /* VocLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8FF17E52EA67EDD6DAEAC8 /* VocProtocolTests.swift */,
+			);
+			path = VocLockTests;
+			sourceTree = "<group>";
+		};
+		F460C9524632C8D8348556A0 = {
+			isa = PBXGroup;
+			children = (
+				D93B15F3A54992F9764CF5B7 /* VocLock */,
+				DAC91212A702EE3707B01A24 /* VocLockTests */,
+				4253290B5D0D985BF3957D28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F993BD3CF9AF3BA23E7C6C0 /* VocLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A7291A78A0E4F84490264D /* Build configuration list for PBXNativeTarget "VocLockTests" */;
+			buildPhases = (
+				84F9B860B8AF95B7F4A65AF9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F545E1C8BD36B89D420935E6 /* PBXTargetDependency */,
+			);
+			name = VocLockTests;
+			packageProductDependencies = (
+			);
+			productName = VocLockTests;
+			productReference = 4AF3FA935DFCD368DDB67BA7 /* VocLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC558EDC520DDB6C642DE3F0 /* VocLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9655C689C0E68CEFCD36FBE0 /* Build configuration list for PBXNativeTarget "VocLock" */;
+			buildPhases = (
+				58E9715324B8336A707C97C8 /* Sources */,
+				A21B3145051AB1C2ADF5EDC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VocLock;
+			packageProductDependencies = (
+			);
+			productName = VocLock;
+			productReference = 81B9F3C1578BD76EC4F529C6 /* VocLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30440748376A416C34CA170A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = B0944C3D00590D8308063950 /* Build configuration list for PBXProject "VocLock" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F460C9524632C8D8348556A0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4253290B5D0D985BF3957D28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC558EDC520DDB6C642DE3F0 /* VocLock */,
+				3F993BD3CF9AF3BA23E7C6C0 /* VocLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A21B3145051AB1C2ADF5EDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8697D04A121D73024E951D82 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58E9715324B8336A707C97C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A117E6CD751B8F1B701026 /* AppConfig.swift in Sources */,
+				7D67FD7C73A6A1CF3DD76405 /* ContentView.swift in Sources */,
+				6D0C4E8AFCFDA2845419E661 /* KeychainStore.swift in Sources */,
+				57997DF069F41C9B661CAA87 /* LockSession.swift in Sources */,
+				FE471CE5E958C0AE954A0B0A /* OpenDoorIntent.swift in Sources */,
+				8515F78A0ACADD9FF1F860B0 /* VocLockApp.swift in Sources */,
+				E8FF4CB7941793D1FF723E68 /* VocProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F9B860B8AF95B7F4A65AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FC96D6F2BF1E5F829EE2C7 /* VocProtocolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F545E1C8BD36B89D420935E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC558EDC520DDB6C642DE3F0 /* VocLock */;
+			targetProxy = DDEAD5AA1FB9AD74062D353C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		007FBDD281250027D132D24F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.voclock.VocLockTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocLock.app/VocLock";
+			};
+			name = Release;
+		};
+		19AE8977700E780449AD3B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3CBA6FBC2202B3BCC24C3304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5FE00CB39F304B7E9AE38BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = VocLock/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.voclock.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		876EBAC7550A0278BA605F26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = VocLock/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.voclock.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B6046F0ED648EFA97C517A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.voclock.VocLockTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VocLock.app/VocLock";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A7291A78A0E4F84490264D /* Build configuration list for PBXNativeTarget "VocLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6046F0ED648EFA97C517A2C /* Debug */,
+				007FBDD281250027D132D24F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9655C689C0E68CEFCD36FBE0 /* Build configuration list for PBXNativeTarget "VocLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				876EBAC7550A0278BA605F26 /* Debug */,
+				5FE00CB39F304B7E9AE38BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0944C3D00590D8308063950 /* Build configuration list for PBXProject "VocLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBA6FBC2202B3BCC24C3304 /* Debug */,
+				19AE8977700E780449AD3B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30440748376A416C34CA170A /* Project object */;
+}
